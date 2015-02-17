@@ -1,14 +1,14 @@
-︠005a29ff-901d-4bb7-9aab-71dbce8edd7eas︠
+︠005a29ff-901d-4bb7-9aab-71dbce8edd7e︠
 %auto
 typeset_mode(True)
-︡b0e9a509-44fc-48a0-a451-e83ff74b5b5f︡{"auto":true}︡
+︡a00edfa0-e65f-4196-bd04-c039fd1071c5︡{"auto":true}︡
 ︠cfc00840-33c2-4987-9665-f39a6125d569i︠
 %html
 <p style="text-align: center;"><img style="vertical-align: middle;" src="http://art.ngfiles.com/images/284000/284257_emutoons_derpemon-bulbasaur.png" alt="" width="320" height="180" /></p>
 <h2 style="text-align: center;">Balbusaur</h2>
 
 ︡20b74f6e-5774-4e74-ae37-cae6916814d1︡{"html":"<p style=\"text-align: center;\"><img style=\"vertical-align: middle;\" src=\"http://art.ngfiles.com/images/284000/284257_emutoons_derpemon-bulbasaur.png\" alt=\"\" width=\"320\" height=\"180\" /></p>\n<h2 style=\"text-align: center;\">Balbusaur</h2>\n\n"}︡
-︠82740d77-8853-4cb1-a194-df8f1673c123is︠
+︠82740d77-8853-4cb1-a194-df8f1673c123i︠
 %md
 
 #### Variables involved:
@@ -23,61 +23,59 @@ typeset_mode(True)
 
 #### Problem descriptions:
 
-1. CONDUCTION_1D: 
+1. CONDUCTION_1D:
    * Mean variables      : $\rho_0$, $u_0$, $B^1_0$
    * Perturbed variables : $\rho$, $u$, $u^1$, $\phi$
    * Wavenumbers         : $k_1$
-   
-2. VISCOSITY_1D: 
+
+2. VISCOSITY_1D:
    * Mean variables      : $\rho_0$, $u_0$, $B^1_0$
    * Perturbed variables : $\rho$, $u$, $u^1$, $\psi$
    * Wavenumbers         : $k_1$
 
-3. CONDUCTION_2D: 
+3. CONDUCTION_2D:
    * Mean variables      : $\rho_0$, $u_0$, $B^1_0$, $B^2_0$
    * Perturbed variables : $\rho$, $u$, $u^1$, $u^2$, $\phi$
    * Wavenumbers         : $k_1$, $k_2$
-   
-4. VISCOSITY_2D: 
+
+4. VISCOSITY_2D:
    * Mean variables      : $\rho_0$, $u_0$, $B^1_0$, $B^2_0$
-   * Perturbed variables : $\rho$, $u$, $u^1$, $u^2$, $\psi$
+   * Perturbed variables : $\rho$, $u$, $u^1$, $u^2$, $B^1$, $B^2$, $\psi$
    * Wavenumbers         : $k_1$, $k_2$
 
-5. CONDUCTION_AND_VISCOSITY_1D: 
+5. CONDUCTION_AND_VISCOSITY_1D:
    * Mean variables      : $\rho_0$, $u_0$, $B^1_0$
    * Perturbed variables : $\rho$, $u$, $u^1$, $\phi$, $\psi$
    * Wavenumbers         : $k_1$
 
-3. CONDUCTION_AND_VISCOSITY_2D: 
+3. CONDUCTION_AND_VISCOSITY_2D:
    * Mean variables      : $\rho_0$, $u_0$, $B^1_0$, $B^2_0$
    * Perturbed variables : $\rho$, $u$, $u^1$, $u^2$, $\phi$, $\psi$
    * Wavenumbers         : $k_1$, $k_2$
-︡6dea2845-5735-4b64-b558-a56955150dc4︡{"md":"\n#### Variables involved:\n1. Density $\\rho$\n2. Internal energy $u$\n3. Velocity in $x^1$ direction $u^1$\n4. Velocity in $x^2$ direction $u^2$\n5. Magnetic field in $x^1$ direction $B^1$\n6. Magnetic field in $x^2$ direction $B^2$\n7. Heat flux magnitude $\\phi$\n8. Shear stress magnitude $\\psi$\n\n#### Problem descriptions:\n\n1. CONDUCTION_1D: \n   * Mean variables      : $\\rho_0$, $u_0$, $B^1_0$\n   * Perturbed variables : $\\rho$, $u$, $u^1$, $\\phi$\n   * Wavenumbers         : $k_1$\n   \n2. VISCOSITY_1D: \n   * Mean variables      : $\\rho_0$, $u_0$, $B^1_0$\n   * Perturbed variables : $\\rho$, $u$, $u^1$, $\\psi$\n   * Wavenumbers         : $k_1$\n\n3. CONDUCTION_2D: \n   * Mean variables      : $\\rho_0$, $u_0$, $B^1_0$, $B^2_0$\n   * Perturbed variables : $\\rho$, $u$, $u^1$, $u^2$, $\\phi$\n   * Wavenumbers         : $k_1$, $k_2$\n   \n4. VISCOSITY_2D: \n   * Mean variables      : $\\rho_0$, $u_0$, $B^1_0$, $B^2_0$\n   * Perturbed variables : $\\rho$, $u$, $u^1$, $u^2$, $\\psi$\n   * Wavenumbers         : $k_1$, $k_2$\n\n5. CONDUCTION_AND_VISCOSITY_1D: \n   * Mean variables      : $\\rho_0$, $u_0$, $B^1_0$\n   * Perturbed variables : $\\rho$, $u$, $u^1$, $\\phi$, $\\psi$\n   * Wavenumbers         : $k_1$\n\n3. CONDUCTION_AND_VISCOSITY_2D: \n   * Mean variables      : $\\rho_0$, $u_0$, $B^1_0$, $B^2_0$\n   * Perturbed variables : $\\rho$, $u$, $u^1$, $u^2$, $\\phi$, $\\psi$\n   * Wavenumbers         : $k_1$, $k_2$\n"}︡
-︠c953ed04-b6ab-4a98-a57f-2711f7d0d62b︠
+︡7d01e076-a4fd-40cf-acbb-a223b84f62b9︡{"md":"\n#### Variables involved:\n1. Density $\\rho$\n2. Internal energy $u$\n3. Velocity in $x^1$ direction $u^1$\n4. Velocity in $x^2$ direction $u^2$\n5. Magnetic field in $x^1$ direction $B^1$\n6. Magnetic field in $x^2$ direction $B^2$\n7. Heat flux magnitude $\\phi$\n8. Shear stress magnitude $\\psi$\n\n#### Problem descriptions:\n\n1. CONDUCTION_1D: \n   * Mean variables      : $\\rho_0$, $u_0$, $B^1_0$\n   * Perturbed variables : $\\rho$, $u$, $u^1$, $\\phi$\n   * Wavenumbers         : $k_1$\n   \n2. VISCOSITY_1D: \n   * Mean variables      : $\\rho_0$, $u_0$, $B^1_0$\n   * Perturbed variables : $\\rho$, $u$, $u^1$, $\\psi$\n   * Wavenumbers         : $k_1$\n\n3. CONDUCTION_2D: \n   * Mean variables      : $\\rho_0$, $u_0$, $B^1_0$, $B^2_0$\n   * Perturbed variables : $\\rho$, $u$, $u^1$, $u^2$, $\\phi$\n   * Wavenumbers         : $k_1$, $k_2$\n   \n4. VISCOSITY_2D: \n   * Mean variables      : $\\rho_0$, $u_0$, $B^1_0$, $B^2_0$\n   * Perturbed variables : $\\rho$, $u$, $u^1$, $u^2$, $B^1$, $B^2$, $\\psi$\n   * Wavenumbers         : $k_1$, $k_2$\n\n5. CONDUCTION_AND_VISCOSITY_1D: \n   * Mean variables      : $\\rho_0$, $u_0$, $B^1_0$\n   * Perturbed variables : $\\rho$, $u$, $u^1$, $\\phi$, $\\psi$\n   * Wavenumbers         : $k_1$\n\n3. CONDUCTION_AND_VISCOSITY_2D: \n   * Mean variables      : $\\rho_0$, $u_0$, $B^1_0$, $B^2_0$\n   * Perturbed variables : $\\rho$, $u$, $u^1$, $u^2$, $\\phi$, $\\psi$\n   * Wavenumbers         : $k_1$, $k_2$\n"}︡
+︠c953ed04-b6ab-4a98-a57f-2711f7d0d62bs︠
 # Inputs:
 
 # Choose problem here:
-problem = "VISCOSITY_1D"
-
+problem = "FIREHOSE"
 
 # Inputs for numerical diagonalization for finite k modes
 rho0_num  = 1.
-u0_num    = 2.
-B10_num   = 0.0001
-B20_num   = 0.0002
+u0_num    = 2.0
+B10_num   = 0.01
+B20_num   = 0
 
 Gamma_num = 4./3
 P0_num    = (Gamma_num - 1.)*u0_num
 T0_num    = P0_num/rho0_num
+psi0_num  = -10.
 k1_num    = 2.*pi
-k2_num    = 0.
+k2_num    = 0
 kappa_num = 0.1
-tau_num   = kappa_num*T0_num/(rho0_num + u0_num + P0_num) + 1.
-eta_num   = 0.1
-
-
-︡63fafb19-7690-4c24-8c5a-5ea455a26cc0︡
-︠a7637a36-f643-4769-aed3-98f0e4e300b9s︠
+eta_num   = 1.
+tau_num   = 0.0001
+︡44d5b998-780e-4a8f-b19f-ce06bf2b28f1︡
+︠a7637a36-f643-4769-aed3-98f0e4e300b9︠
 # Spatiotemporal variables
 t, omega, k1, k2 = var('t, omega, k1, k2')
 
@@ -89,15 +87,15 @@ t, omega, k1, k2 = var('t, omega, k1, k2')
 Gamma, kappa, eta, tau = var('Gamma, kappa, eta, tau')
 
 # Background mean values
-rho0, u0, B10, B20 = var('rho0, u0, B10, B20')
+rho0, u0, B10, B20, psi0 = var('rho0, u0, B10, B20, psi0')
 
 # Perturbations in space
-delta_rho, delta_u, delta_u1, delta_u2, delta_B1, delta_B2, delta_phi, delta_psi = \
-    var('delta_rho, delta_u, delta_u1, delta_u2, delta_B1, delta_B2, delta_phi, delta_psi')
+delta_rho, delta_u, delta_u1, delta_u2, delta_u3, delta_B1, delta_B2, delta_B3, delta_phi, delta_psi = \
+    var('delta_rho, delta_u, delta_u1, delta_u2, delta_u3, delta_B1, delta_B2, delta_B3, delta_phi, delta_psi')
 
 # Perturbations in time
-delta_rho_dt, delta_u_dt, delta_u1_dt, delta_u2_dt, delta_B1_dt, delta_B2_dt, delta_phi_dt, delta_psi_dt = \
-    var('delta_rho_dt, delta_u_dt, delta_u1_dt, delta_u2_dt, delta_B1_dt, delta_B2_dt, delta_phi_dt, delta_psi_dt')
+delta_rho_dt, delta_u_dt, delta_u1_dt, delta_u2_dt, delta_u3_dt, delta_B1_dt, delta_B2_dt, delta_B3_dt, delta_phi_dt, delta_psi_dt = \
+    var('delta_rho_dt, delta_u_dt, delta_u1_dt, delta_u2_dt, delta_u3_dt, delta_B1_dt, delta_B2_dt, delta_B3_dt, delta_phi_dt, delta_psi_dt')
 
 #eta = 0
 
@@ -143,8 +141,8 @@ elif (problem=="VISCOSITY_2D"):
     u1  = delta_u1
     u2  = delta_u2
     u3  = 0
-    B1  = B10
-    B2  = B20
+    B1  = B10  + delta_B1
+    B2  = B20 + delta_B2
     B3  = 0
     phi = 0
     psi = delta_psi
@@ -172,6 +170,19 @@ elif (problem=="CONDUCTION_AND_VISCOSITY_2D"):
     B3  = 0
     phi = delta_phi
     psi = delta_psi
+
+elif (problem=="FIREHOSE"):
+    rho = rho0 + delta_rho
+    u   = u0 + delta_u
+    u1  = delta_u1
+    u2  = 0
+    u3  = 0
+    B1  = B10 + delta_B1
+    B2  = 0
+    B3  = 0
+    phi = 0
+    psi = psi0 + delta_psi
+
 
 gcon = Matrix([ [-1, 0, 0, 0],
                 [0, 1, 0, 0],
@@ -208,16 +219,20 @@ def linearize(term):
                         (delta_u, 0),   \
                         (delta_u1, 0),  \
                         (delta_u2, 0),  \
+                        (delta_u3, 0),  \
                         (delta_B1, 0),  \
                         (delta_B2, 0),  \
+                        (delta_B3, 0),  \
                         (delta_phi, 0), \
                         (delta_psi, 0), \
                         (delta_rho_dt, 0), \
                         (delta_u_dt, 0),   \
                         (delta_u1_dt, 0),  \
                         (delta_u2_dt, 0),  \
+                        (delta_u3_dt, 0),  \
                         (delta_B1_dt, 0),  \
                         (delta_B2_dt, 0),  \
+                        (delta_B3_dt, 0),  \
                         (delta_phi_dt, 0), \
                         (delta_psi_dt, 0), 1 \
                  ).simplify_full()
@@ -229,8 +244,10 @@ def d_dX1(term):
            + term.coefficient(delta_u)   * I * k1 * delta_u   \
            + term.coefficient(delta_u1)  * I * k1 * delta_u1  \
            + term.coefficient(delta_u2)  * I * k1 * delta_u2  \
+           + term.coefficient(delta_u3)  * I * k1 * delta_u3  \
            + term.coefficient(delta_B1)  * I * k1 * delta_B1  \
            + term.coefficient(delta_B2)  * I * k1 * delta_B2  \
+           + term.coefficient(delta_B3)  * I * k1 * delta_B3  \
            + term.coefficient(delta_phi) * I * k1 * delta_phi \
            + term.coefficient(delta_psi) * I * k1 * delta_psi
 
@@ -243,8 +260,10 @@ def d_dX2(term):
            + term.coefficient(delta_u)   * I * k2 * delta_u   \
            + term.coefficient(delta_u1)  * I * k2 * delta_u1  \
            + term.coefficient(delta_u2)  * I * k2 * delta_u2  \
+           + term.coefficient(delta_u3)  * I * k2 * delta_u3  \
            + term.coefficient(delta_B1)  * I * k2 * delta_B1  \
            + term.coefficient(delta_B2)  * I * k2 * delta_B2  \
+           + term.coefficient(delta_B3)  * I * k2 * delta_B3  \
            + term.coefficient(delta_phi) * I * k2 * delta_phi \
            + term.coefficient(delta_psi) * I * k2 * delta_psi
 
@@ -258,8 +277,10 @@ def d_dt(term):
            + term.coefficient(delta_u)   * delta_u_dt   \
            + term.coefficient(delta_u1)  * delta_u1_dt  \
            + term.coefficient(delta_u2)  * delta_u2_dt  \
+           + term.coefficient(delta_u3)  * delta_u3_dt  \
            + term.coefficient(delta_B1)  * delta_B1_dt  \
            + term.coefficient(delta_B2)  * delta_B2_dt  \
+           + term.coefficient(delta_B3)  * delta_B3_dt  \
            + term.coefficient(delta_phi) * delta_phi_dt \
            + term.coefficient(delta_psi) * delta_psi_dt
 
@@ -333,9 +354,9 @@ elif (problem=='VISCOSITY_1D'):
 
 elif (problem=='VISCOSITY_2D'):
 
-    Eqns          = [Eqn_rho==0, Eqn_u==0, Eqn_u1==0, Eqn_u2==0, Eqn_psi==0]
-    delta_vars    = [delta_rho, delta_u, delta_u1, delta_u2, delta_psi]
-    delta_vars_dt = [delta_rho_dt, delta_u_dt, delta_u1_dt, delta_u2_dt, delta_psi_dt]
+    Eqns          = [Eqn_rho==0, Eqn_u==0, Eqn_u1==0, Eqn_u2==0, Eqn_B1==0, Eqn_B2==0, Eqn_psi==0]
+    delta_vars    = [delta_rho, delta_u, delta_u1, delta_u2, delta_B1, delta_B2, delta_psi]
+    delta_vars_dt = [delta_rho_dt, delta_u_dt, delta_u1_dt, delta_u2_dt, delta_B1_dt, delta_B2_dt, delta_psi_dt]
 
 elif (problem=='CONDUCTION_AND_VISCOSITY_1D'):
 
@@ -349,6 +370,11 @@ elif (problem=='CONDUCTION_AND_VISCOSITY_2D'):
     delta_vars    = [delta_rho, delta_u, delta_u1, delta_u2, delta_phi, delta_psi]
     delta_vars_dt = [delta_rho_dt, delta_u_dt, delta_u1_dt, delta_u2_dt, delta_phi_dt, delta_psi_dt]
 
+elif (problem=='FIREHOSE'):
+
+    Eqns          = [Eqn_rho==0, Eqn_u==0, Eqn_u1==0, Eqn_B1==0, Eqn_psi==0]
+    delta_vars    = [delta_rho, delta_u, delta_u1, delta_B1, delta_psi]
+    delta_vars_dt = [delta_rho_dt, delta_u_dt, delta_u1_dt, delta_B1_dt, delta_psi_dt]
 
 solutions = solve(Eqns, delta_vars_dt, solution_dict=True)
 
@@ -369,7 +395,7 @@ M.subs(k1=0, k2=0).eigenvectors_right()
 
 # Numerical diagonalization:
 
-M_numerical = M.subs(rho0=rho0_num, u0=u0_num, B10=B10_num, B20=B20_num, Gamma=Gamma_num, kappa=kappa_num, eta=eta_num, tau=tau_num, k1=k1_num, k2=k2_num)
+M_numerical = M.subs(rho0=rho0_num, u0=u0_num, B10=B10_num, B20=B20_num, psi0=psi0_num, Gamma=Gamma_num, kappa=kappa_num, eta=eta_num, tau=tau_num, k1=k1_num, k2=k2_num)
 M_numerical = M_numerical.change_ring(CDF)
 eigenvecs   = M_numerical.eigenvectors_right()
 
@@ -427,7 +453,9 @@ if (problem=='VISCOSITY_2D'):
         print "delta_u    = ",     eigenvecs[i][1][0][1]
         print "delta_u1   = ",     eigenvecs[i][1][0][2]
         print "delta_u2   = ",     eigenvecs[i][1][0][3]
-        print "delta_psi  = ",     eigenvecs[i][1][0][4]
+        print "delta_B1   = ",     eigenvecs[i][1][0][4]
+        print "delta_B2   = ",     eigenvecs[i][1][0][5]
+        print "delta_psi  = ",     eigenvecs[i][1][0][6]
         print "--------------------------"
 
 if (problem=='CONDUCTION_AND_VISCOSITY_1D'):
@@ -460,20 +488,53 @@ if (problem=='CONDUCTION_AND_VISCOSITY_2D'):
         print "delta_phi  = ",     eigenvecs[i][1][0][4]
         print "delta_psi  = ",     eigenvecs[i][1][0][5]
         print "--------------------------"
-︡2546bfbc-a240-4fcb-be7a-15f716f0050f︡{"html":"<div align='center'>Linearized system : </div>"}︡{"stdout":"\n\n"}︡{"html":"<div align='center'>$\\displaystyle \\left(\\begin{array}{r}\n\\delta_{\\rho_{\\mathit{dt}}} \\\\\n\\delta_{u_{\\mathit{dt}}} \\\\\n\\delta_{\\mathit{u1}_{\\mathit{dt}}} \\\\\n\\delta_{\\psi_{\\mathit{dt}}}\n\\end{array}\\right)$  =  $\\displaystyle \\left(\\begin{array}{rrrr}\n0 &amp; 0 &amp; -i \\, k_{1} \\rho_{0} &amp; 0 \\\\\n0 &amp; 0 &amp; -i \\, \\Gamma k_{1} u_{0} &amp; 0 \\\\\n0 &amp; \\frac{{\\left(-i \\, \\Gamma + i\\right)} k_{1}}{\\Gamma u_{0} + \\rho_{0}} &amp; 0 &amp; -\\frac{2 i \\, k_{1}}{3 \\, {\\left(\\Gamma u_{0} + \\rho_{0}\\right)}} \\\\\n0 &amp; 0 &amp; -\\frac{2 i \\, \\eta k_{1}}{\\tau} &amp; -\\frac{1}{\\tau}\n\\end{array}\\right)$ $\\displaystyle \\left(\\begin{array}{r}\n\\delta_{\\rho} \\\\\n\\delta_{u} \\\\\n\\delta_{u_{1}} \\\\\n\\delta_{\\psi}\n\\end{array}\\right)$</div>"}︡{"stdout":"\n\n\n"}︡{"html":"<div align='center'>Eigenvalues and eigenvectors in the $k \\rightarrow 0$ limit : </div>"}︡{"tex":{"tex":"\\left[\\left(-\\frac{1}{\\tau}, \\left[\\left(0,\\,0,\\,0,\\,1\\right)\\right], 1\\right), \\left(0, \\left[\\left(1,\\,0,\\,0,\\,0\\right), \\left(0,\\,1,\\,0,\\,0\\right), \\left(0,\\,0,\\,1,\\,0\\right)\\right], 3\\right)\\right]","display":true}}︡{"stdout":"Numerical eigenvalues and eigenvectors for k > 0:\n\n"}︡{"stdout":"--------------------------\n\n"}︡{"stdout":"eta   =  0.100000000000000\ntau   =  1.01818181818182\n--------------------------\nEigenvalue =  0.0\ndelta_rho  =  1.0\ndelta_u    =  0.0\ndelta_u1   =  0.0\ndelta_psi  =  0.0\n--------------------------\nEigenvalue =  -0.0590414351496 + 3.29771927115*I\ndelta_rho  =  0.34457248379 - 1.38777878078e-16*I\ndelta_u    =  0.918859956773\ndelta_u1   =  -0.180848290246 - 0.00323785674963*I\ndelta_psi  =  0.0624512526648 + 0.0186932205343*I\n--------------------------\nEigenvalue =  -0.0590414351496 - 3.29771927115*I\ndelta_rho  =  0.34457248379 + 1.94289029309e-16*I\ndelta_u    =  0.918859956773\ndelta_u1   =  0.180848290246 - 0.00323785674963*I\ndelta_psi  =  0.0624512526648 - 0.0186932205343*I\n--------------------------\nEigenvalue =  -0.864059986844 + 2.96306215479e-17*I\ndelta_rho  =  0.313173722005 - 3.46944695195e-17*I\ndelta_u    =  0.835129925347\ndelta_u1   =  1.30104260698e-17 - 0.0430674679937*I\ndelta_psi  =  -0.450139334914 - 1.38777878078e-17*I\n--------------------------\n"}︡
-︠997cc087-e184-4a2d-b295-14fa95d4ef5es︠
-psi_relaxed.subs(eta=0)
-︡7a099903-93a0-4853-b8b1-6ebfa6260bf1︡{"tex":{"tex":"0","display":true}}︡
-︠7573551c-945b-47c8-93d5-3391e7469163s︠
-expr = (psi*T/(2*beta2))*(d_dt(beta2*ucon[0]/T) + d_dX1(beta2*ucon[1]/T) + d_dX2(beta2*ucon[2]/T))
-︡d43d463e-d2a0-4415-a8f0-2bf1c04c6a52︡
-︠a4c8da16-bbf5-408d-986e-114f0da9d77as︠
-expr.simplify_full().subs(eta=0)
-︡48a49f7d-228d-425c-8ac1-f2652a4a2f69︡{"tex":{"tex":"-\\frac{\\delta_{\\psi} \\delta_{u} \\delta_{u_{\\mathit{dt}}} \\rho_{0} - {\\left(i \\, \\delta_{\\psi} \\delta_{u_{1}} k_{1} \\rho_{0} + \\delta_{\\psi} \\delta_{\\rho_{\\mathit{dt}}}\\right)} u_{0}^{2} - {\\left(\\delta_{\\psi} \\delta_{\\rho_{\\mathit{dt}}} \\delta_{u} + {\\left(i \\, \\delta_{\\psi} \\delta_{u} \\delta_{u_{1}} k_{1} - \\delta_{\\psi} \\delta_{u_{\\mathit{dt}}}\\right)} \\rho_{0}\\right)} u_{0}}{2 \\, {\\left(\\delta_{\\rho} + \\rho_{0}\\right)} u_{0}^{2}}","display":true}}︡
-︠d654381e-966e-46a4-a4ff-274972d1afc8s︠
-expr.limit(eta=0)
-︡ae333d5c-fe3f-4918-b34d-71c0c312affc︡{"tex":{"tex":"-\\frac{\\delta_{\\psi} \\delta_{u} \\delta_{u_{\\mathit{dt}}} \\rho_{0} - {\\left(i \\, \\delta_{\\psi} \\delta_{u_{1}} k_{1} \\rho_{0} + \\delta_{\\psi} \\delta_{\\rho_{\\mathit{dt}}}\\right)} u_{0}^{2} - {\\left(\\delta_{\\psi} \\delta_{\\rho_{\\mathit{dt}}} \\delta_{u} + {\\left(i \\, \\delta_{\\psi} \\delta_{u} \\delta_{u_{1}} k_{1} - \\delta_{\\psi} \\delta_{u_{\\mathit{dt}}}\\right)} \\rho_{0}\\right)} u_{0}}{2 \\, {\\left(\\delta_{\\rho} + \\rho_{0}\\right)} u_{0}^{2}}","display":true}}︡
-︠de9fa465-bcbe-47d6-b1dc-085be3c9d6df︠
+
+if (problem=='FIREHOSE'):
+
+    print "eta   = ", eta_num
+    print "tau   = ", tau_num
+    print "--------------------------"
+    for i in xrange(len(eigenvecs)):
+        print "Eigenvalue = ",     eigenvecs[i][0]
+        print "delta_rho  = ",     eigenvecs[i][1][0][0]
+        print "delta_u    = ",     eigenvecs[i][1][0][1]
+        print "delta_u1   = ",     eigenvecs[i][1][0][2]
+        print "delta_B1   = ",     eigenvecs[i][1][0][3]
+        print "delta_psi  = ",     eigenvecs[i][1][0][4]
+        print "--------------------------"
+
+
+︡fe0031d6-9f98-4dff-bcd6-2c71d4038fa6︡{"html":"<div align='center'>Linearized system : </div>"}︡{"stdout":"\n\n"}︡{"html":"<div align='center'>$\\displaystyle \\left(\\begin{array}{r}\n\\delta_{\\rho_{\\mathit{dt}}} \\\\\n\\delta_{u_{\\mathit{dt}}} \\\\\n\\delta_{\\mathit{u1}_{\\mathit{dt}}} \\\\\n\\delta_{\\mathit{B1}_{\\mathit{dt}}} \\\\\n\\delta_{\\psi_{\\mathit{dt}}}\n\\end{array}\\right)$  =  $\\displaystyle \\left(\\begin{array}{rrrrr}\n0 &amp; 0 &amp; -i \\, k_{1} \\rho_{0} &amp; 0 &amp; 0 \\\\\n0 &amp; 0 &amp; -i \\, \\Gamma k_{1} u_{0} - \\frac{2}{3} i \\, k_{1} \\psi_{0} &amp; 0 &amp; 0 \\\\\n0 &amp; \\frac{{\\left(-3 i \\, \\Gamma + 3 i\\right)} k_{1}}{3 \\, \\Gamma u_{0} + 2 \\, \\psi_{0} + 3 \\, \\rho_{0}} &amp; 0 &amp; \\frac{3 i \\, B_{10} k_{1}}{3 \\, \\Gamma u_{0} + 2 \\, \\psi_{0} + 3 \\, \\rho_{0}} &amp; -\\frac{2 i \\, k_{1}}{3 \\, \\Gamma u_{0} + 2 \\, \\psi_{0} + 3 \\, \\rho_{0}} \\\\\n0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\\\\n0 &amp; 0 &amp; \\frac{-2 i \\, k_{1} \\psi_{0}^{2} \\tau - {\\left(3 i \\, \\Gamma k_{1} \\psi_{0} \\tau + 12 i \\, \\eta k_{1}\\right)} u_{0}}{6 \\, \\tau u_{0}} &amp; 0 &amp; -\\frac{1}{\\tau}\n\\end{array}\\right)$ $\\displaystyle \\left(\\begin{array}{r}\n\\delta_{\\rho} \\\\\n\\delta_{u} \\\\\n\\delta_{u_{1}} \\\\\n\\delta_{B_{1}} \\\\\n\\delta_{\\psi}\n\\end{array}\\right)$</div>"}︡{"stdout":"\n\n\n"}︡{"html":"<div align='center'>Eigenvalues and eigenvectors in the $k \\rightarrow 0$ limit : </div>"}︡{"tex":{"tex":"\\left[\\left(-\\frac{1}{\\tau}, \\left[\\left(0,\\,0,\\,0,\\,0,\\,1\\right)\\right], 1\\right), \\left(0, \\left[\\left(1,\\,0,\\,0,\\,0,\\,0\\right), \\left(0,\\,1,\\,0,\\,0,\\,0\\right), \\left(0,\\,0,\\,1,\\,0,\\,0\\right), \\left(0,\\,0,\\,0,\\,1,\\,0\\right)\\right], 4\\right)\\right]","display":true}}︡{"stdout":"Numerical eigenvalues and eigenvectors for k > 0:\n\n"}︡{"stdout":"--------------------------\n\n"}︡{"stdout":"eta   =  1.00000000000000\ntau   =  0.000100000000000000\n--------------------------\nEigenvalue =  0.0\ndelta_rho  =  1.0\ndelta_u    =  0.0\ndelta_u1   =  0.0\ndelta_B1   =  0.0\ndelta_psi  =  0.0\n--------------------------\nEigenvalue =  1.06411716644\ndelta_rho  =  -0.215357106645\ndelta_u    =  0.861428426578\ndelta_u1   =  -0.0364727734249*I\ndelta_B1   =  0.0\ndelta_psi  =  -0.458510762468\n--------------------------\nEigenvalue =  16.4599069833\ndelta_rho  =  0.0300815011839\ndelta_u    =  -0.120326004736\ndelta_u1   =  0.0788037734365*I\ndelta_B1   =  0.0\ndelta_psi  =  0.989144438979\n--------------------------\nEigenvalue =  -10017.5240241\ndelta_rho  =  8.74231312256e-08\ndelta_u    =  -3.49692524903e-07\ndelta_u1   =  -0.00013938206093*I\ndelta_B1   =  0.0\ndelta_psi  =  0.999999990286\n--------------------------\nEigenvalue =  0.0\ndelta_rho  =  0.0\ndelta_u    =  0.0299865091057\ndelta_u1   =  -6.58486930972e-20*I\ndelta_B1   =  0.999550303522\ndelta_psi  =  -1.25304501849e-19\n--------------------------\n"}︡
+︠6347b530-12dc-4d27-8f3e-6b58bc364164i︠
+
+
+
+
+
+
+e205da3b-ddd4-49a9-b495-e456c9c47147
+
+
+
+
+
+b31eb8b8-9b1-4db7-b04-357e710e2c
+
+
+
+
+
+
+
+e205d3b-ddd4-499-b495-e456c9c47147
+
+
+
+
+
+
+
+
 
 
 
